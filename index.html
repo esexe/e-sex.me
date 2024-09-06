@@ -29,9 +29,11 @@
     <meta name="twitter:image:src" content="https://ichef.bbci.co.uk/images/ic/640x360/p052pzhw.jpg">
     <title>e-sex.me | Socials</title>
     <link rel="shortcut icon" type="image/x-icon" href="ico/lawliet.png" />
-    <link href="https://example.com/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://example.com/script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="module" src="/script.js"></script>
     <style>
+
+      
     body {
       background-image: url('https://i.imgur.com/SxIa6R8.gif');
       background-size: cover;
@@ -198,7 +200,7 @@
       </div>
       </section>
       </main>
-      <script type="module" src="script.js"></script>
+  <script type="module" src="/script.js"></script>
       <script>
       const shareButton = document.getElementById('shareButton');
       const shareMenu = document.getElementById('shareMenu');
@@ -286,3 +288,39 @@
     }
   </style>
 </head>
+
+  <body>
+        <audio id="backgroundMusic" src="./music/cuts.mp3" loop preload="auto"></audio>
+        <a href="javascript:void(0);"><div id="blurOverlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(10px); display:flex; justify-content:center; align-items:center; z-index:9999;">
+          <span style="font-family: 'Cute Font', cursive; color: #fff; padding: 20px 40px; border-radius: 5px; cursor: pointer; font-size: 24px; text-shadow: 0 0 10px white;">welcome to my website :3 click here</span>
+        </div></a>
+    <script type="module" src="/script.js"></script>
+        <script>
+          if (location.protocol !== 'https:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+          }
+          document.addEventListener('DOMContentLoaded', function() {
+            const blurOverlay = document.getElementById('blurOverlay');
+            const music = document.getElementById('backgroundMusic');
+            blurOverlay.addEventListener('click', function() {
+              if (blurOverlay) {
+                blurOverlay.style.display = 'none';
+              }
+              if (music) {
+                music.play().then(()=>{
+                  console.log('Music is pleaying');
+                });
+              }
+            });
+            const mainContent = document.getElementById('mainContent');
+            if (mainContent) {
+              mainContent.style.pointerEvents = 'none';
+              blurOverlay.addEventListener('click', function() {
+                if (mainContent) {
+                  mainContent.style.pointerEvents = 'auto';
+                }
+              });
+            }
+          });
+        </script>
+        <body>
