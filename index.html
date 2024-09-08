@@ -1,326 +1,527 @@
-<!--
-  Hit RUN to see this project in action!
+          <!--
+            Hit RUN to see this project in action!
 
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
+            This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
+          -->
 
-<!DOCTYPE html>
-<html>
+          <!DOCTYPE html>
+          <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
 
-   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta property="og:url" content="https://e-sex.me" />
-    <meta property="og:title" content="Socials | e-sex.me" />
-    <meta property="og:description" content="my socials stfu ≻ᴗ≺" />
-    <meta property="og:image" content="https://ichef.bbci.co.uk/images/ic/640x360/p052pzhw.jpg" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Thumbnail Image" />
-    <meta name="twitter:site" content="https://e-sex.me">
-    <meta name="twitter:title" content="Socials | e-sex.me">
-    <meta name="twitter:description" content="my socials stfu ≻ᴗ≺">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="https://ichef.bbci.co.uk/images/ic/640x360/p052pzhw.jpg">
-    <title>e-sex.me | Socials</title>
-    <link rel="shortcut icon" type="image/x-icon" href="ico/lawliet.png" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  <script type="module" src="/script.js"></script>
-    <style>
 
-      
-    body {
-      background-image: url('https://i.imgur.com/SxIa6R8.gif');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: Arial, sans-serif;
-      backdrop-filter: blur(10px);
-    }
-    .button-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 10px;
-      padding: 20px;
-    }
-    .custom-button {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      max-width: 550px;
-      padding: 15px 20px;
-      border: 2px solid white;
-      border-radius: 5px;
-      text-decoration: none;
-      color: white;
-      background-color: transparent;
-      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
-      transition: background-color 0.3s, color 0.3s;
-      text-align: center;
-    }
-    .custom-button:hover {
-      background-color: white;
-      color: black;
-    }
-    .icon {
-      margin-right: 10px;
-    }
-    .button-text {
-      flex-grow: 1;
-      text-align: center;
-    }
-    .dots {
-      margin-left: 10px;
-      cursor: pointer;
-    }
-    @media (min-width: 600px) {
-      .custom-button {
-        padding: 15px 25px;
-        width: 550px;
-      }
-    }
-    .round-button {
-        background-color: white;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 10px white;
-    }
-
-    .round-button-container {
-        position: relative;
-        display: flex;
-        justify-content: center;
-    }
-
-    .share-menu {
-      display: none;
-      position: absolute;
-      bottom: 60px;
-      background-color: white;
-      border: 1px solid #ccc;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      opacity: 0.95;
-
-    }
-    .share-menu a {
-      display: flex;
-      align-items: center;
-      padding: 10px 20px;
-      color: black;
-      text-decoration: none;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    .share-menu a:hover {
-      background-color: #f0f0f0;
-    }
-  </style>
-</head>
-
-  <script>
-    if (location.protocol !== 'https:') {
-      location.replace(`https:${location.href.substring(location.protocol.length)}`);
-    }
-  </script>
-  
-<body>
-  <main>
-    <div class='profile-wrapper' style='position:relative; width: 100px; height: 140px; margin: 0 auto;'>
-      <img src="https://i.imgur.com/Or2IwKQ.png" alt="Profile Picture" class="profile-img" />
-      <img src="https://i.imgur.com/ZA3GQgr.png" alt="Profile Frame" class="profile-frame" />
-    </div>
-    <section class="button-container">
-      <a href="https://twitter.com/goreuy" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/d7hPrRF.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/VFh4QUf.png'">
-        <img src="https://i.imgur.com/VFh4QUf.png" alt="Twitter Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">twitter</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://steamcommunity.com/id/apov/" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/VIXVRyr.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/FPzX66i.png'">
-        <img src="https://i.imgur.com/FPzX66i.png" alt="Steam Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">steam</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://www.tiktok.com/@lturgy" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/zZdDmLl.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/XPwEGZF.png'">
-        <img src="https://i.imgur.com/XPwEGZF.png" alt="TikTok Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">tiktok</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://www.roblox.com/users/764755997/profile" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/UEhURp5.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/sSwOqUU.png'">
-        <img src="https://i.imgur.com/sSwOqUU.png" alt="Roblox Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">roblox</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://www.roblox.com/groups/14782859/ain#!/about" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/1CEwZBL.png'" onmouseout="this.querySelector('.icon').src='https://tr.rbxcdn.com/09053a8bb4945793e1ef22ebc4346cd6/150/150/Image/png'">
-        <img src="https://tr.rbxcdn.com/09053a8bb4945793e1ef22ebc4346cd6/150/150/Image/png" alt="Roblox Group Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">roblox group</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://open.spotify.com/user/qvmn4ckjfpfjf779dbwla29vi" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/rkVMXMe.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/CfFHdDk.png'">
-        <img src="https://i.imgur.com/CfFHdDk.png" alt="Spotify Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">spotify</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <a href="https://github.com/4po" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/TvPKsH7.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/FUSavVh.png'">
-        <img src="https://i.imgur.com/FUSavVh.png" alt="Github Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
-        <span class="button-text">github</span>
-        <span class="dots">•••</span>
-      </a>
-
-      <div class="round-button-container">
-        <button class="round-button" id="shareButton">
-          <img src="https://cdn.pixabay.com/photo/2023/12/24/08/59/socialmedia-share-8466801_1280.png" alt="Share" width="30" style="filter: drop-shadow(2px 2px 2px white);">
-        </button>
-        <div class="share-menu" id="shareMenu">
-          <a href="#" id="shareTwitter"><img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" alt="Twitter Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Twitter</a>
-          <a href="#" id="shareFacebook"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Facebook</a>
-          <a href="#" id="shareInstagram"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Instagram</a>
-          <a href="#" id="shareDiscord"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Discord</a>
-          <a href="#" id="copyLink"><img src="https://static-00.iconduck.com/assets.00/copy-icon-2021x2048-5n8s57wy.png" alt="Copy Link Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Copy Link</a>
-        </div>
-      </div>
-      </section>
-      </main>
-  <script type="module" src="/script.js"></script>
-      <script>
-      const shareButton = document.getElementById('shareButton');
-      const shareMenu = document.getElementById('shareMenu');
-      shareButton.addEventListener('click', () => {
-      // Toggle the visibility of the share menu
-      shareMenu.style.display = shareMenu.style.display === 'block' ? 'none' : 'block';
-      });
-      document.getElementById('shareTwitter').addEventListener('click', () => {
-      window.open(`https://twitter.com/share?url=${window.location.href}`, '_blank');
-      });
-      document.getElementById('shareFacebook').addEventListener('click', () => {
-      window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, '_blank');
-      });
-      // Instagram doesn't have a direct web URL sharing option like other platforms generally.
-      // Hence, you can prompt the user to copy the link for sharing it manually.
-      document.getElementById('shareInstagram').addEventListener('click', () => {
-      alert('Please copy the link and share it on Instagram.');
-      });
-      document.getElementById('shareDiscord').addEventListener('click', () => {
-      window.open(`https://discordapp.com/channels/@me?url=${window.location.href}`, '_blank');
-      });
-      document.getElementById('copyLink').addEventListener('click', () => {
-      navigator.clipboard.writeText(window.location.href)
-        .then(() => alert('Link copied to clipboard!'));
-      });
-      </script>
-      </body>
-      </html><!--
-  Hit RUN to see this project in action!
-
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
-
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>e-sex</title>
-  <link rel="icon" href="ico/lev.ico" type="image/x-icon" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-    body {
- 
-    }
-    .grid {
-      display: grid;
-      gap: 1px;
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-    .card {
-      background-color: opaque;
-      color: rgba(51, 51, 51, 0.5);
-      text-decoration: none;
-      padding: 40px;
-      border-radius: 8px;
-      text-align: center;
-    }
-    .card:hover {
-      background-color: rgba(51, 51, 51, 0.5);
-      color: white;
-    }
-    .profile-img {
-      display: block;
-      margin: 0 auto;
-      border-radius: 50%;
-      width: 120px;
-      height: 120px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .profile-frame {
-      width: 140px;
-      height: 140px;
-      border-radius: 0%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  </style>
-</head>
-
-  <body>
-        <audio id="backgroundMusic" src="./music/cuts.mp3" loop preload="auto"></audio>
-        <a href="javascript:void(0);"><div id="blurOverlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(10px); display:flex; justify-content:center; align-items:center; z-index:9999;">
-          <span style="font-family: 'Cute Font', cursive; color: #fff; padding: 20px 40px; border-radius: 5px; cursor: pointer; font-size: 24px; text-shadow: 0 0 10px white;">welcome to my website :3 click here</span>
-        </div></a>
-    <script type="module" src="/script.js"></script>
-        <script>
-          if (location.protocol !== 'https:') {
-            location.replace(`https:${location.href.substring(location.protocol.length)}`);
-          }
-          document.addEventListener('DOMContentLoaded', function() {
-            const blurOverlay = document.getElementById('blurOverlay');
-            const music = document.getElementById('backgroundMusic');
-            blurOverlay.addEventListener('click', function() {
-              if (blurOverlay) {
-                blurOverlay.style.display = 'none';
-              }
-              if (music) {
-                music.play().then(()=>{
-                  console.log('Music is pleaying');
+             <meta charset="utf-8">
+              <meta name="viewport" content="width=device-width">
+              <meta property="og:url" content="https://e-sex.me" />
+              <meta property="og:title" content="Socials | e-sex.me" />
+              <meta property="og:description" content="my socials stfu ≻ᴗ≺" />
+              <meta property="og:image" content="https://ichef.bbci.co.uk/images/ic/640x360/p052pzhw.jpg" />
+              <meta property="og:image:type" content="image/png" />
+              <meta property="og:image:width" content="1200" />
+              <meta property="og:image:height" content="630" />
+              <meta property="og:image:alt" content="Thumbnail Image" />
+              <meta name="twitter:site" content="https://e-sex.me">
+              <meta name="twitter:title" content="Socials | e-sex.me">
+              <meta name="twitter:description" content="my socials stfu ≻ᴗ≺">
+              <meta name="twitter:card" content="summary_large_image">
+              <meta name="twitter:image:src" content="https://ichef.bbci.co.uk/images/ic/640x360/p052pzhw.jpg">
+              <title>e-sex.me | Socials</title>
+              <link rel="shortcut icon" type="image/x-icon" href="ico/lawliet.png" />
+              <link href="style.css" rel="stylesheet" type="text/css" />
+              <script src="/session.js"></script>
+              <script type="module" src="/script.js"></script>
+              <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                  const video = document.getElementById('backgroundVideo');
+                  if (video) {
+                    video.setAttribute('preload', 'metadata');
+                    video.load();
+                    console.log('Background video is preloaded');
+                    video.addEventListener('click', () => {
+                      video.play().then(() => {
+                        console.log('Background video is playing');
+                      }).catch(error => {
+                        console.log('Error playing video:', error);
+                      });
+                    });
+                  }
                 });
+              </script>
+              <style>
+
+              body {
+              .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+                padding: 20px;
               }
-            });
-            const mainContent = document.getElementById('mainContent');
-            if (mainContent) {
-              mainContent.style.pointerEvents = 'none';
-              blurOverlay.addEventListener('click', function() {
-                if (mainContent) {
-                  mainContent.style.pointerEvents = 'auto';
+              .custom-button {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                max-width: 550px;
+                padding: 15px 20px;
+                border: 2px solid white;
+                border-radius: 5px;
+                text-decoration: none;
+                color: white;
+                background-color: transparent;
+                box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+                transition: background-color 0.3s, color 0.3s;
+                text-align: center;
+              }
+              .custom-button:hover {
+                background-color: white;
+                color: black;
+              }
+              .icon {
+                margin-right: 10px;
+              }
+              .button-text {
+                flex-grow: 1;
+                text-align: center;
+              }
+              .dots {
+                margin-left: 10px;
+                cursor: pointer;
+              }
+              @media (min-width: 600px) {
+                .custom-button {
+                  padding: 15px 25px;
+                  width: 550px;
                 }
-              });
-            }
-          });
-        </script>
-        <body>
+              }
+              .round-button {
+                  background-color: white;
+                  border-radius: 50%;
+                  width: 50px;
+                  height: 50px;
+                  border: none;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 10px white;
+              }
+
+              .round-button-container {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+              }
+
+              .share-menu {
+                display: none;
+                position: absolute;
+                bottom: 60px;
+                background-color: white;
+                border: 1px solid #ccc;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                opacity: 0.95;
+
+              }
+              .share-menu a {
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+                transition: background 0.3s;
+              }
+              .share-menu a:hover {
+                background-color: #f0f0f0;
+              }
+                .custom-card {
+                  display: flex;
+                  align-items: center;
+                  background-color: rgba(0, 0, 0, 0.20); /* black transparency */
+                  padding: 15px;
+                  border: 2px solid rgba(0, 0, 0, 0.25);
+                  border-radius: 5px;
+                  max-width: 550px;
+                  color: antiquewhite;
+                  margin: 10px 0;
+                  box-shadow: 0 0 20px grey; /* White drop shadow */
+                }
+
+                .custom-card img {
+                  margin: 0 auto;
+
+                  width: 70px;
+                  height: 70px;
+                  margin-right: 15px;
+                  position: relative;
+                  z-index: 1;
+                }
+
+                .overlay-image {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 800%;
+                  height: 800%;
+                  border: 0;
+                  z-index: 2;
+                }
+
+                .card-frame {
+                  margin: 0 auto;
+                  width: 70px;
+                  height: 70px;
+                  margin-right: 15px;
+                  position: relative;
+                  z-index: 1;
+                }
+
+                .custom-card #discord-info h4 {
+                  margin: 0;
+                }
+
+                .custom-card #discord-info span {
+                  font-size: 14px;
+                }
+
+                .newLinks {
+                  display: none; /* Initial state set to hide the new links */
+                  flex-direction: column;
+                  align-items: center;
+                  gap: 10px;
+                  padding: 20px;
+                }
+
+                .newLinks a {
+                  margin: 10px;
+                  padding: 10px 20px;
+                  background-color: transparent;
+                  color: white;
+                  text-decoration: none;
+                  border: 2px solid white;
+                  border-radius: 5px;
+                  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+                  transition: background-color 0.3s, color 0.3s;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100%;
+                  max-width: 550px;
+                  text-align: center;
+                }
+
+                .newLinks a:hover {
+                  background-color: white;
+                  color: black;
+                }
+                .swipe-button {
+                    background-color: white;
+                    border-radius: 50%;
+                    width: 50px;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5), 0 0 10px white;
+                }
+
+            </style>
+          </head>
+            <script>
+              if (location.protocol !== 'https:') {
+                location.replace(`https:${location.href.substring(location.protocol.length)}`);
+              }
+            </script>
+
+
+
+          <body>
+            <main>
+              <div class='profile-wrapper' style='position:relative; width: 100px; height: 140px; margin: 0 auto;'>
+                <img src="https://i.imgur.com/H25v5u4.jpeg" alt="Profile Picture" class="profile-img" />
+                <img src="https://i.imgur.com/ZA3GQgr.png" alt="Profile Frame" class="profile-frame" />
+              </div>
+                <section class="button-container" id="linkButtons">
+                <a href="https://twitter.com/goreuy" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/d7hPrRF.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/VFh4QUf.png'">
+                  <img src="https://i.imgur.com/VFh4QUf.png" alt="Twitter Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">twitter</span>
+                  <span class="dots">•••</span>
+                </a>
+
+                <a href="https://steamcommunity.com/id/apov/" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/VIXVRyr.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/FPzX66i.png'">
+                  <img src="https://i.imgur.com/FPzX66i.png" alt="Steam Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">steam</span>
+                  <span class="dots">•••</span>
+                </a>
+
+                <a href="https://www.tiktok.com/@lturgy" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/zZdDmLl.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/XPwEGZF.png'">
+                  <img src="https://i.imgur.com/XPwEGZF.png" alt="TikTok Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">tiktok</span>
+                  <span class="dots">•••</span>
+
+                  </a>
+                </div>
+                <a href="https://www.roblox.com/users/764755997/profile" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/UEhURp5.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/sSwOqUU.png'">
+                  <img src="https://i.imgur.com/sSwOqUU.png" alt="Roblox Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">roblox</span>
+                  <span class="dots">•••</span>
+                </a>
+
+                <a href="https://www.roblox.com/groups/14782859/ain#!/about" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/1CEwZBL.png'" onmouseout="this.querySelector('.icon').src='https://tr.rbxcdn.com/09053a8bb4945793e1ef22ebc4346cd6/150/150/Image/png'">
+                  <img src="https://tr.rbxcdn.com/09053a8bb4945793e1ef22ebc4346cd6/150/150/Image/png" alt="Roblox Group Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">roblox group</span>
+                  <span class="dots">•••</span>
+                </a>
+
+                <a href="https://open.spotify.com/user/qvmn4ckjfpfjf779dbwla29vi" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/rkVMXMe.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/CfFHdDk.png'">
+                  <img src="https://i.imgur.com/CfFHdDk.png" alt="Spotify Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">spotify</span>
+                  <span class="dots">•••</span>
+                </a>
+
+                <a href="https://github.com/4po" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/TvPKsH7.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/FUSavVh.png'">
+                  <img src="https://i.imgur.com/FUSavVh.png" alt="Github Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                  <span class="button-text">github</span>
+                  <span class="dots">•••</span>
+                </a>
+
+
+
+                      </a>
+                  </section>
+
+                  <section class="button-container" id="newLinks" style="display: none;">
+                    <div class="card-flex" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+                      <div class="custom-card" id="discord-profile-right" style="flex: 1; min-width: 300px; margin-bottom: 10px;">
+                        <div style="position:relative; display:inline-block;">
+                          <a href="https://guns.lol/iev" target="_blank"><img src="https://i.imgur.com/sjXYiaj.png" class="icon" style="position:relative; z-index:2; outline: 2px solid #E8B135; border-radius: 50%; box-shadow: 0 0 20px #E8B135;" /></a>
+                          <div class="overlay-image" style="width: 200px; height: 200px; transform: translate(-10px, -10px);"></div>
+                        </div>
+                        <div id="discord-info">
+                          <h4>levh</h4>
+                          <div id="discord-badges">
+                            <img src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                            <img src="https://cdn.discordapp.com/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                            <img src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                          </div>
+                          <a href="https://guns.lol/iev" target="_blank" style="color: #4B9DD6; text-decoration: none;">https://guns.lol/iev</a>
+                        </div>
+                      </div>
+                      <div class="custom-card" id="discord-profile-right" style="flex: 1; min-width: 300px; margin-bottom: 10px;">
+                        <div style="position:relative; display:inline-block;">
+                          <a href="https://guns.lol/4po" target="_blank"><img src="https://i.imgur.com/yYzuqL6.png" class="icon" style="position:relative; z-index:2; outline: 2px solid #E8B135; border-radius: 50%; box-shadow: 0 0 20px #E8B135;" /></a>
+                          <div class="overlay-image" style="width: 200px; height: 200px; transform: translate(-10px, -10px);"></div>
+                        </div>
+                        <div id="discord-info">
+                          <h4>.4po</h4>
+                          <div id="discord-badges">
+                            <img src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                            <img src="https://cdn.discordapp.com/badge-icons/7142225d31238f6387d9f09efaa02759.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                            <img src="https://cdn.discordapp.com/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png" alt="Badge" style="width: 20px; height: 20px; margin-right: 5px;"/>
+                          </div>
+                          <a href="https://guns.lol/4po" target="_blank" style="color: #4B9DD6; text-decoration: none;">https://guns.lol/4po</a>
+                        </div>
+                      </div>
+                    </div>
+                      <a href="https://guns.lol/iev" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/KCtCBa6.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/w6kiQUG.png'">
+                        <img src="https://i.imgur.com/w6kiQUG.png" alt="guns Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                        <span class="button-text" style="text-align: center;"><span style="color: #73777F;">guns.</span>lol</span>
+                        <span class="dots">•••</span>
+                      </a>
+                      <a href="https://discord.com/invite/vun" class="custom-button" style="font-family: 'Dela Gothic One', cursive;" onmouseover="this.querySelector('.icon').src='https://i.imgur.com/6wRMfH7.png'" onmouseout="this.querySelector('.icon').src='https://i.imgur.com/AK2cHaJ.png'">
+                          <img src="https://i.imgur.com/AK2cHaJ.png" alt="discord Icon" class="icon" style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 4px white);" />
+                            <span class="button-text" style="display: flex; justify-content: center;"><span style="color: #73777F;">discord.gg/</span>vun</span>
+                          <span class="dots">•••</span>
+                        </a>
+                    <iframe style="border-radius:12px; max-width: 100%;" src="https://open.spotify.com/embed/playlist/1qrkkKGcVIUvSgP4mYoZK2?si=51db2ff12ff944ad?utm_source=generator&theme=1" width="100%" height="100" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+                  </section>
+              <div class="round-button-container" style="position: relative;">
+                <button class="round-button" id="shareButton" style="left: calc(50% - 25px - 10px);">
+                  <img src="https://www.svgrepo.com/show/311182/share-ios.svg" alt="Share" width="30" style="filter: drop-shadow(2px 2px 2px white);">
+                </button>
+                <div class="round-button-container" style="position: relative; left: 20px;">
+                  <button class="swipe-button" id="swipeButton" style="left: calc(50% - 25px + 10px);">
+                    <img src="https://cdn-icons-png.flaticon.com/512/32/32213.png" alt="Swipe" width="30" style="filter: drop-shadow(2px 2px 2px white);">
+                  </button>
+                  <script>
+                    document.getElementById('swipeButton').addEventListener('click', function() {
+                      const img = this.querySelector('img');
+                      if (img.src === 'https://cdn-icons-png.flaticon.com/512/32/32213.png') {
+                        img.src = 'https://cdn-icons-png.flaticon.com/512/271/271220.png';
+                      } else {
+                        img.src = 'https://cdn-icons-png.flaticon.com/512/32/32213.png';
+                      }
+                    });
+                  </script>
+                  <div class="share-menu" id="shareMenu">
+                    <a href="#" id="shareTwitter"><img src="https://www.iconpacks.net/icons/2/free-twitter-logo-icon-2429-thumb.png" alt="Twitter Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Twitter</a>
+                    <a href="#" id="shareFacebook"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Facebook</a>
+                    <a href="#" id="shareInstagram"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" alt="Instagram Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Instagram</a>
+                    <a href="#" id="shareDiscord"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Discord</a>
+                    <a href="#" id="copyLink"><img src="https://static-00.iconduck.com/assets.00/copy-icon-2021x2048-5n8s57wy.png" alt="Copy Link Icon" class="icon" style="width: 20px; height: 20px; margin-right: 8px; float: left;" />Copy Link</a>
+                  </div>
+                </div>
+
+
+
+          <!DOCTYPE html>
+          <html>
+
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width">
+            <title>e-sex</title>
+            <link rel="icon" href="ico/lev.ico" type="image/x-icon" />
+            <link href="style.css" rel="stylesheet" type="text/css" />
+            <style>
+              body {
+
+              }
+              .grid {
+                display: grid;
+                gap: 1px;
+                max-width: 800px;
+                margin: auto;
+                padding: 20px;
+              }
+              .card {
+                background-color: opaque;
+                color: rgba(51, 51, 51, 0.5);
+                text-decoration: none;
+                padding: 40px;
+                border-radius: 8px;
+                text-align: center;
+              }
+              .card:hover {
+                background-color: rgba(51, 51, 51, 0.5);
+                color: white;
+              }
+              .profile-img {
+                display: block;
+                margin: 0 auto;
+                border-radius: 50%;
+                width: 120px;
+                height: 120px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+              .profile-frame {
+                width: 140px;
+                height: 140px;
+                border-radius: 0%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            </style>
+          </head>
+
+            <body>
+                  <audio id="backgroundMusic" src="./music/777.mp3" loop preload="auto" volume="40%"></audio>
+
+
+                  <video id="backgroundVideo" src="https://cdn.discordapp.com/attachments/1037581003373428737/1282003647655448596/888.mp4?ex=66ddc670&is=66dc74f0&hm=2c07ab21d95227fd451765ed1852a7f6ff9aeb095b3e4941267d119281a4f528&" loop muted preload="metadata" poster="./image/555.png" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1.1); width: 100vw; height: 100vh; object-fit: cover; background-color: rgba(0, 0, 0, 0.6); z-index: -1; filter: brightness(50%) blur(0px);" playsinline></video>
+                  <a href="javascript:void(0);"><div id="blurOverlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); backdrop-filter: blur(10px); display:flex; justify-content:center; align-items:center; z-index:9999;">
+                    <div style="text-align: center; position: relative;">
+                      <span class="auto-type" style="font-family: 'Cute Font', cursive; color: #fff; padding: -3px 40px; border-radius: 5px; cursor: pointer; font-size: 24px; text-shadow: 0 0 10px white; display: inline-block; max-width: 100%;">welcome to my website :3</span>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <span id="autoType" class="auto-type" style="font-family: 'Cute Font', cursive; color: #fff; padding: -5px 40px; border-radius: 5px; cursor: pointer; font-size: 24px; text-shadow: 0 0 15px white; display: inline-block; max-width: 100%; position: absolute; top: 45%; left: 50%; transform: translate(-50%, 0);"></span>
+                    </div>
+                    <script>
+                      document.addEventListener('DOMContentLoaded', () => {
+                        const textElement = document.getElementById('autoType');
+                        let text = 'click here';
+                        let index = 0;
+                        let typing = true;
+                        function typeErase() {
+                          if (typing) {
+                            if (index < text.length) {
+                              textElement.textContent += text.charAt(index);
+                              index++;
+                              setTimeout(typeErase, 200);
+                            } else {
+                              typing = false;
+                              setTimeout(typeErase, 1000);
+                            }
+                          } else {
+                            if (index > 0) {
+                              textElement.textContent = textElement.textContent.slice(0, -1);
+                              index--;
+                              setTimeout(typeErase, 100);
+                            } else {
+                              textElement.textContent = ' ';
+                              typing = true;
+                              setTimeout(typeErase, 200);
+                            }
+                          }
+                        }
+                        typeErase();
+                      });
+                    </script>
+                  </div></a>
+              <script type="module" src="/script.js"></script>
+                  <script>
+                    if (location.protocol !== 'https:') {
+                      location.replace(`https:${location.href.substring(location.protocol.length)}`);
+                    }
+                    document.addEventListener('DOMContentLoaded', function() {
+                      const blurOverlay = document.getElementById('blurOverlay');
+                      const music = document.getElementById('backgroundMusic');
+                      blurOverlay.addEventListener('click', function() {
+                        if (blurOverlay) {
+                          blurOverlay.style.display = 'none';
+                        }
+                        const video = document.getElementById('backgroundVideo');
+                        if (video) {
+                          video.setAttribute('preload', 'metadata');
+                          video.load();
+                          video.addEventListener('loadeddata', () => {
+                            console.log('Background video is preloaded');
+                          }, false);
+                          video.play().then(() => {
+                            if (music) {
+                              music.play().then(() => {
+                                console.log('Music is playing');
+                              }).catch(err => {
+                                console.log('Error playing music:', err);
+                              });
+                            }
+                            video.addEventListener('click', () => {
+                              video.play().then(() => {
+                                console.log('Video is playing');
+                              }).catch(error => {
+                                console.log('Error playing video:', error);
+                              });
+                            });
+                          }).catch(error => {
+                            console.log('Error playing video:', error);
+                          });
+                        }
+                      });
+                      const mainContent = document.getElementById('mainContent');
+                      if (mainContent) {
+                        mainContent.style.pointerEvents = 'none';
+                        blurOverlay.addEventListener('click', function() {
+                          if (mainContent) {
+                            mainContent.style.pointerEvents = 'auto';
+                          }
+                        });
+                      }
+                    });
+                  </script>
+                  <body>
