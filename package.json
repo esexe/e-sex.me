@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.20.0",
     "node-fetch": "^3.3.2",
     "vite": "^5.0.12"
   },
